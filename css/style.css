@@ -1,0 +1,47 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #15171B;
+}
+.app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 50px 0px 10px 0px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+p {
+    font-size: 20px;
+    color: white;
+}
+.pads {
+    margin-left: 80px;
+    width: 75%;
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.pads > div{
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.pad1,.pad2,.pad3,.pad4,.pad5,.pad6,.pad7,.pad8,.pad9,.pad10,.pad11,.pad12,.pad13,.pad14,.pad15,.pad16,.pad17,.pad18,.pad19,.pad20 {
+    background: rgb(77, 77, 77);,
+}
+.toggle {
+    background: rgb(92, 91, 100);
+}
